@@ -1,6 +1,6 @@
 from python:3
 
-RUN pip install transformers torch
+RUN pip install transformers torch pillow
 
 COPY main.py /
 
